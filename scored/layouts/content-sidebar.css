@@ -1,0 +1,114 @@
+/*
+Theme Name: scored
+Layout: Content-Sidebar
+*/
+
+.site-main {
+    padding-bottom: 4em;
+    background: #e9e9e9;
+    width: 80%;
+    margin: 0 auto;
+}
+.single .site-content,
+.page .site-content { 
+    background: #EEF2F3; 
+}
+
+.site-content .widget-area {
+    width: 380px;
+    float: right;
+    padding: 4rem;
+    margin-top: 2.9rem;
+    background: #fff;
+    background: hsl(0, 0%, 100%);
+}
+.site-footer {
+    clear: both;
+    width: 100%;
+}
+
+.entry-header,
+.entry-content,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.paging-navigation,
+.page-header {
+    position: relative;
+    max-width: 980px;
+    max-width: 98rem;
+    padding: 0 2rem;
+  }
+
+.index-box {
+    max-width: 780px;
+    max-width: 78rem;
+    padding: 1em 0 2em;
+    margin: 0 auto 2em;
+    background: #fff;
+    background: hsl(0, 0%, 100%);
+}
+
+.index-box blockquote.alignleft,
+.index-box blockquote.alignright {
+    background: #fff;
+    background: hsl(0, 0%, 100%);
+    border: none;
+}
+
+@media screen and (min-width: 1820px) {
+    .index-box blockquote.alignright { padding-right: 2em; }
+}
+
+@media screen and (min-width: 1320px) {
+    .index-box blockquote.alignleft { padding-left: 2em; }
+}
+
+@media screen and (min-width: 1540px) {
+    .content-area {
+        float: left;
+        width: 84.7%;
+        margin-right: -380px;
+    }
+}
+
+@media screen and (min-width: 1160px) and (max-width: 1539px) {
+    .content-area {
+        width: 100%;
+        float: left;
+        margin-left: -380px;
+        padding-left: 380px;
+    }
+    
+    .entry-header,
+    .entry-content,
+    .entry-footer,
+    .tag-links,
+    .post-navigation,
+    .comments-area,
+    .paging-navigation,
+    .index-box,
+    .page-header { 
+        margin-right: 0; 
+    }
+    
+}
+
+@media screen and (max-width: 1159px) {  
+    .site-content .widget-area {
+        width: auto;
+        max-width: 780px;
+        float: none;
+        margin: 1em auto 0;
+    }
+}
+
+.page-header,
+.paging-navigation {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    list-style-type: none;
+    background: #fff;
+}
